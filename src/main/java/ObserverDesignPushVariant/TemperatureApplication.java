@@ -11,9 +11,6 @@ public final class TemperatureApplication {
 		// Private constructor because a utility class should not be instantiable.
 	}
 
-	//TODO Part 0: Before you start coding have a look at the project to create an overview & understanding how it works.
-	//TODO Part 2: Create a new class KelvinGUI as subclass of TemperatureGUI and add it as observer to the TemperatureModel.
-
 	public static void main(String[] args) throws Exception {
 		UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 
@@ -31,7 +28,6 @@ public final class TemperatureApplication {
 		GaugeGUI gaugeGUI = new GaugeGUI(temperature, new Point(300, 200));
 		gaugeGUI.show();
 
-		//TODO Part 2: Instantiate the new KelvinGUI here and show it.
 		KelvinGUI kelvinGUI = new KelvinGUI(temperature, new Point(100, 400));
 		kelvinGUI.show();
 	}

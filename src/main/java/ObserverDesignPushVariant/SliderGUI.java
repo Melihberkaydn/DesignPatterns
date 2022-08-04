@@ -5,7 +5,6 @@ import java.awt.*;
 import java.awt.event.AdjustmentEvent;
 import java.awt.event.AdjustmentListener;
 
-// TODO Part 1.4: implement Observer<Double>
 public class SliderGUI implements Observer<Double> {
 
 	private static final int MIN_VALUE = -20;
@@ -29,7 +28,6 @@ public class SliderGUI implements Observer<Double> {
 		this.model = model;
 		this.location = location;
 		createUI();
-		// TODO Part 1.6: add the object as observer to the subject
 		tempControl.addAdjustmentListener(new SlideListener());
 		model.addObserver(this);
 	}

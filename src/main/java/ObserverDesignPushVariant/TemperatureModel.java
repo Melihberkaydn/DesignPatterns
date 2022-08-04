@@ -28,7 +28,6 @@ public class TemperatureModel extends Subject<Double> {
 		setC(celsiusTemperature + amount);
 	}
 
-	//TODO Task 2.2: Add Kelvin-Support by implementing setK() and increaseK()
 	public void increaseK (double amount) {
 		setC(celsiusTemperature + amount);
 	}

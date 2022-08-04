@@ -14,7 +14,6 @@ public final class TemperatureConverter {
 		return (fahrenheit - 32.0) * 5.0 / 9.0;
 	}
 
-	//TODO Task 2.2: Add Kelvin Converter Methods
 	public static double convertKelvinToCelsius(double kelvin) {
 		return (kelvin - 273.15);
 	}

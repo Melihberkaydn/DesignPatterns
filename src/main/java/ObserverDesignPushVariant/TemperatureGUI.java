@@ -4,7 +4,6 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
-// TODO Part 1.5: implement Observer<Double>
 public abstract class TemperatureGUI implements Observer <Double> {
 
 	private static final int BORDER_SIZE = 4;
@@ -25,7 +24,6 @@ public abstract class TemperatureGUI implements Observer <Double> {
 		this.label = label;
 		this.location = location;
 		createUI();
-		// TODO Part 1.6: add the object as observer to the subject
 		model.addObserver(this);
 	}
 
