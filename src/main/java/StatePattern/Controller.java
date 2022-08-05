@@ -30,7 +30,12 @@ public class Controller {
 	}
 
 	public int getNextStop() {
-		return pool.get(0);
+		try {
+			return pool.get(0);
+		} catch (Exception e) {
+			System.out.println();
+		}
+		return -1;
 	}
 
 	public int getCurrentFloor() {
