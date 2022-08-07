@@ -1,4 +1,4 @@
-package BridgePattern;
+package BridgePattern.HashingExample;
 
 public interface HashFunction {
 

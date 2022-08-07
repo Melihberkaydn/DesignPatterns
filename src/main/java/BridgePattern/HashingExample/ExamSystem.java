@@ -1,4 +1,4 @@
-package BridgePattern;
+package BridgePattern.HashingExample;
 
 import java.io.IOException;
 import java.nio.file.Files;

@@ -1,4 +1,4 @@
-package BridgePattern;
+package BridgePattern.HashingExample;
 
 public abstract class Hashing {
     private HashFunction implementation;

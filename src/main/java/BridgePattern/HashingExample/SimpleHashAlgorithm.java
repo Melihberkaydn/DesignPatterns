@@ -1,4 +1,4 @@
-package BridgePattern;
+package BridgePattern.HashingExample;
 
 public class SimpleHashAlgorithm implements HashFunction {
 

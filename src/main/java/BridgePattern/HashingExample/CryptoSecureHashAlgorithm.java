@@ -1,4 +1,4 @@
-package BridgePattern;
+package BridgePattern.HashingExample;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
