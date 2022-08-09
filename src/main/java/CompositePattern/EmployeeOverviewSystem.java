@@ -7,9 +7,6 @@ public final class EmployeeOverviewSystem {
 
 	public static void main(String[] args) {
 
-		// TODO 3: Uncomment the following code for testing
-
-
 		Supervisor ceo = new Supervisor("Chief Zed");
 		ceo.hireEmployee(new Worker("Molly Wright"));
 		ceo.hireEmployee(new Worker("Derrick Cunningham"));
