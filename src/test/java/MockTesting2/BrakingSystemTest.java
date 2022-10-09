@@ -9,7 +9,7 @@ import org.easymock.Mock;
 import org.easymock.TestSubject;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-
+import static org.junit.jupiter.api.Assertions.*;
 import static org.easymock.EasyMock.*;
 
 @ExtendWith(EasyMockExtension.class)

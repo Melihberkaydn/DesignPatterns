@@ -1,4 +1,6 @@
-package BridgePattern.ArtemisAuthenticationExample;
+package BridgePattern.ArtemisAuthenticationExample.Group;
+
+import BridgePattern.ArtemisAuthenticationExample.Authentication.TwoFactorAuthentication;
 
 public class TutorsGroup extends Group{
     // TODO

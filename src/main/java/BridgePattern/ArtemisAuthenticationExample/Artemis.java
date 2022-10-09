@@ -1,5 +1,10 @@
 package BridgePattern.ArtemisAuthenticationExample;
 
+import BridgePattern.ArtemisAuthenticationExample.Group.AdministratorGroup;
+import BridgePattern.ArtemisAuthenticationExample.Group.EditorGroup;
+import BridgePattern.ArtemisAuthenticationExample.Group.Group;
+import BridgePattern.ArtemisAuthenticationExample.Group.TutorsGroup;
+
 import java.util.Map;
 
 public class Artemis {

@@ -1,5 +1,7 @@
 package BridgePattern.ArtemisAuthenticationExample;
 
+import BridgePattern.ArtemisAuthenticationExample.Group.Group;
+
 import java.util.Map;
 
 public class User {

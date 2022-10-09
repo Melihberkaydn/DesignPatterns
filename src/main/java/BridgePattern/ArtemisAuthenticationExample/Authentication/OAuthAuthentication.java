@@ -1,4 +1,6 @@
-package BridgePattern.ArtemisAuthenticationExample;
+package BridgePattern.ArtemisAuthenticationExample.Authentication;
+
+import BridgePattern.ArtemisAuthenticationExample.LoginRequestType;
 
 import java.util.Map;
 
